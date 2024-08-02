@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="shortcut icon" href="imgs/logo-sm (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/webfonts">
+    <link rel="stylesheet" href="style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <!-- nav fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nerko+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
+ 
+</head>
+
+<body>
+    <main>
+        <!-- NAVBAR SECTION -->
+        <div class="container-fluid">
+            <img src="imgs/wraper.png" alt="wrapper-img" class="w-100">
+        </div>
+        <div class="container">
+            <nav class="navbar navBar navbar-expand-lg navbar-light bg-light z-3 p-2 rounded-5">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo d-flex" href="#">
+                        <img src="imgs/logo-sm (1).png" alt="logo-nav">
+                        <p class="title ps-2 my-auto text-uppercase">Game Reviews</p>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item mmorpg " role="presentation">
+                                <button class="nav-link active text-uppercase " id="pills-home-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                                    aria-controls="pills-home" aria-selected="true">mmorpg</button>
+                            </li>
+
+                            <li class="nav-item shooter nav-items-rest" role="presentation">
+                                <button class="nav-link my-auto text-uppercase" id="pills-profile-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">shooter</button>
+                            </li>
+                            <li class="nav-item sailing nav-items-rest" role="presentation">
+                                <button class="nav-link my-auto text-uppercase" id="pills-contact-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">sailing</button>
+                            </li>
+                            <li class="nav-item permadeath nav-items-rest" role="presentation">
+                                <button class="nav-link my-auto text-uppercase" id="pills-contact-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">permadeath</button>
+                            </li>
+                            <li class="nav-item superhero nav-items-rest" role="presentation">
+                                <button class="nav-link my-auto text-uppercase" id="pills-contact-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                                    aria-controls="pills-contact" aria-selected="false">superhero</button>
+                            </li>
+                            <li class="nav-item pixel nav-items-rest" role="presentation">
+                                <a class="nav-link my-auto text-uppercase">pixel</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- HOME SECTION RELATED WITH API -->
+        <div class="container mt-5">
+            <div class="row g-3">
+                <!-- API related content here -->
+            </div>
+        </div>
+    </main>
+
+    <div class="container mt-2 bg-dark details-of-the-game d-none p-4" id="details">
+        <div class="d-flex justify-content-between">
+            <p class="text-light details-game">Details Game</p>
+            <i class="fa-solid fa-xmark" id="cancel"></i>
+        </div>
+        <div class="row px-5 py-3" id="row">
+            <!-- Game details content here -->
+        </div>
+    </div>
+
+    <!-- loading screen -->
+    <div class="loading">
+        <span class="loader spinner"></span>
+    </div>
+
+    <script src="jQuery/jquery-3.7.1.min.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

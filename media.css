@@ -1,0 +1,25 @@
+@media screen and (min-width:640px) {
+   .col-lg-3{
+    width:100%;
+   }    
+}
+@media screen and (max-width:1200px){
+    .col-lg-4{
+        width: 100%;
+       }
+}
+@media screen and (min-width:768px) {
+   .col-lg-3{
+    width:50%;
+   }
+}
+@media screen and (min-width:1000px) {
+   .col-lg-3{
+    width: 33.33333333%;
+   }
+}
+@media screen and (min-width:1200px) {
+   .col-lg-3{
+    width: 25%;
+   }
+}
