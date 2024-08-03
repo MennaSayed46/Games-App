@@ -125,6 +125,14 @@ xCancel.addEventListener('click', function (e) {
 $(window).on('scroll', function (e) {
     var scroll = $(window).scrollTop();
     // console.log(scroll);
+     if(scroll>150){
+        $(".top").fadeIn(1000)
+    }else{
+        $(".top").fadeOut(1000)
+    }
+    $(".top").on('click',function(e){
+        $('html').scrollTop(0)
+    })
     let navBarOffset = $('.navBar').offset().top;
     // console.log(navBarOffset);
     if (scroll > navBarOffset) {
@@ -146,36 +154,42 @@ $(function (e) {
 shooter.addEventListener('click', function (e) {
     console.log('the shooter is clicked');
     getData('shooter');
+    $("html").scrollTop(0);
 
 
 });
 sailing.addEventListener('click', function (e) {
     console.log('the sailing is clicked');
     getData('sailing');
+    $("html").scrollTop(0);
 
 
 });
 permadeath.addEventListener('click', function (e) {
     console.log('the permadeath is clicked');
     getData('permadeath');
+    $("html").scrollTop(0);
 
 
 });
 superhero.addEventListener('click', function (e) {
     console.log('the superhero is clicked');
     getData('superhero');
+    $("html").scrollTop(0);
 
 
 });
 pixel.addEventListener('click', function (e) {
     console.log('the pixel is clicked');
     getData('pixel');
+    $("html").scrollTop(0);
 
 
 });
 mmorpg.addEventListener('click', function (e) {
     console.log('the mmorpg is clicked');
     getData('mmorpg');
+    $("html").scrollTop(0);
 
 
 });
