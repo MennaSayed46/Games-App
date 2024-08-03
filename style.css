@@ -226,3 +226,24 @@ i {
     font-size: 28px;
     line-height: 34px;
 }
+.top {
+    border: 1px solid #39497c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 5%;
+    right: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #FF3D00;
+    display: none;
+    background-color: #39497c;
+}
+
+.top i {
+    background: linear-gradient(45deg, #1e90ff, #8a2be2);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
