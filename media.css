@@ -23,3 +23,16 @@
     width: 25%;
    }
 }
+
+
+@media screen and (max-width:450px) {
+   .details-of-the-game .col-lg-4{
+    width: 100%;
+   }
+   .details-of-the-game .col-lg-4 img{
+    width: 100%;
+   }
+   .details-of-the-game .col-lg-8{
+      width: 100%;
+   }    
+}
